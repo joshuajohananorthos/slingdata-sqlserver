@@ -26,7 +26,7 @@ VALUES
 3. Run `python view_parquet.py` to view the contents of the `parquet` file.
 
 ## Observations
-- `json` and `csv` will correctly output the `NULL` values correctly. And the `parquet` output will not output the `NULL` values as empty strings.
+- `json` and `csv` will output the `NULL` values correctly. And the `parquet` outputs the `NULL` values as empty strings.
 
 Here is the output of `python view_parquet.py`:
 ```
