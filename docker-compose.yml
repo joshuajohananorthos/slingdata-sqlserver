@@ -1,0 +1,12 @@
+services:     
+    sqlserver:
+        container_name: sqlserver
+        image: sqlserver
+        build:
+          context: .
+          dockerfile: Dockerfile
+        environment: 
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=Simplepassword1
+        ports:
+            - 1433:1433 
